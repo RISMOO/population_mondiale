@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+}
+body{
+  /*background: linear-gradient(179deg,#333333 0%, #181818 100%);*/
+  background-image: url("street.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+	min-height: 100vh;
+  margin: 0 1rem;
+}
+h1{
+	text-transform: uppercase;
+  color: zz#61DAFB;
+  padding: 3rem 0;
+}
+input{
+  margin-bottom: 2rem;
+	font-family: inherit;
+	border-radius: 50px;
+	padding: .5rem;
+  width: 500px;
+  outline: none;
+  font-size: 2rem;
+  border: 2px solid #333;
+  color: #0B4268;
+  transition: all .3s ease;
+}
+input:focus {
+  border: 2px solid #61DAFB;
+}
+#results {
+  display: flex;
+  flex-wrap: wrap;
+}
+.country-item{
+  border-radius: 25px;
+  background: linear-gradient(90deg,#017070 0%, rgba(3, 235, 243, 0.301) 100%);
+	box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	padding: 0.3rem;
+  width: 380px;
+  margin: .3rem auto;
+  color: #333
+}
+.country-flag{
+  width: 2.5rem;
+  height: 1.7rem;
+  margin-left: 0.5rem;
+  border-radius: 50px;
+  box-shadow: 1px 1px 3px #333;
+}
+.country-name{
+	flex: 2;
+	margin: 0 5px;
+	text-align: center;
+ 
+}
+.country-info{
+	border-left: 1px solid #333;
+	padding: 0 1rem;
+	flex: 1;
+	text-align: center;
+}
+.country-population{
+  width: 100px;
+}
+h2{
+  font-size: 1.1rem;
+}
+h5{
+  font-size: .7rem;
+  color: rgb(17, 80, 97);
+}
+.country-population-text{
+	text-transform: uppercase;
+}
+
